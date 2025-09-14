@@ -272,21 +272,149 @@ public class Main {
                 System.out.print("по ходу :)");
         }
 
+        System.out.println("ЦИКЛЫ.");
         //Обязательная задача 2.1
+        System.out.println("""
+                1.	Распечатать произвольное количество строк: “Task1”. “Task2”. …. Используем цикл while""");
+        int counterWhile = 1;
+        while (counterWhile < 7){
+            System.out.println("Task" + counterWhile);
+            counterWhile++;
+        }
 
         //Обязательная задача 2.2
+        System.out.println("""
+                2.	Распечатать все числа от 1 до 100, которые делятся на 5 без остатка. Используем цикл do-while.""");
+        int counterDoWhile = 1;
+        do {
+            if(counterDoWhile % 5 == 0){
+                System.out.println(counterDoWhile);
+            }
+            counterDoWhile++;
+        } while (counterDoWhile <= 100);
 
         //Обязательная задача 2.3
+        System.out.println("""
+                3.	Реализовать подсчет факториала используя цикл for. Результат вывести на экран""");
+        int numberForFactorial = 4;
+        int resultFactorial = 1;
+        for (int i = 1; i <= numberForFactorial; i++){
+            resultFactorial *= i;
+        }
+        if (numberForFactorial < 0) {
+            System.out.println("Факториал отрицательного числа не определен.");
+        } else {
+            System.out.println("Факторил числа " + numberForFactorial + " равен " + resultFactorial);
+        }
 
         //Обязательная задача 2.4
+        System.out.println("""
+                4.	Даны два целых числа A и B (A < B). Вывести в порядке убывания все целые числа, 
+                \tрасположенные между A и B (не включая числа A и B), а также количество N этих чисел.""");
+        int aNumber = 3;
+        int bNumber = 9;
+        int countDigits = 0;
+        if (aNumber >= bNumber) {
+            System.out.println("Перечитайте внимательно условия задачи! :)");
+        } else {
+            for(int i = bNumber - 1; i > aNumber; i--) {
+                System.out.println(i);
+                countDigits++;
+            }
+            System.out.println("Общее количество чисел между " + aNumber + " и " + bNumber + " = " + countDigits);
+        }
 
         //Дополнительная задача 2.5
+        System.out.println("""
+                5.	Даны положительные числа A и B (A > B). На отрезке длины A размещено максимально возможное количество 
+                \tотрезков длины B (без наложений). Не используя операции умножения и деления, 
+                \tнайти длину незанятой части отрезка A.""");
+        aNumber = 7;
+        bNumber = 3;
+        if (aNumber <= bNumber) {
+            System.out.println("Перечитайте внимательно условия задачи! :)");
+        } else {
+            do {
+                aNumber -= bNumber;
+            } while (aNumber >= bNumber);
+            System.out.println("Длина незанятой части отрезка А равна " + aNumber);
+        }
 
         //Дополнительная задача 2.6
+        System.out.println("""
+                6.	Даны положительные числа A, B, C. На прямоугольнике размера A × B размещено максимально 
+                \tвозможное количество квадратов со стороной C (без наложений). Найти количество квадратов, 
+                \tразмещенных на прямоугольнике.""");
+
+        double A = 10.5;
+        double B = 8.2;
+        double C = 2.1;
+        int squares = 0;
+
+        if (A <= 0 || B <= 0 || C <= 0) {
+            System.out.println("Все числа должны быть положительными!");
+        } else if (C > A || C > B) {
+            System.out.println("Квадрат не помещается в прямоугольник!");
+        } else {
+            for (int i = 0; i * C < B; i++) {
+                for (int j = 0; j * C < A; j++) {
+                    squares++;
+                }
+            }
+            System.out.println("Влазит квадратов: " + squares);
+        }
 
         //Дополнительная задача 2.7
+        System.out.println("""
+                7.	Дано целое число N (> 0). С помощью операций деления нацело и взятия остатка от деления: определить 
+                \tимеется ли в записи числа N цифра «2»; найти число, полученное при прочтении числа N справа налево; 
+                \tнайти количество и сумму его цифр. Использовать можно любое количество циклов, но чем меньше, тем лучше""");
+        int N = 123;
+
+        boolean hasTwo = false;
+        int reversed = 0;
+        int count = 0;
+        int sumDigits = 0;
+        int tempN = N;
+
+        while (tempN > 0) {
+            int digit = tempN % 10;
+
+            if (digit == 2) {
+                hasTwo = true;
+            }
+            reversed = reversed * 10 + digit;
+            count++;
+            sumDigits += digit;
+            tempN = tempN / 10;
+        }
+
+        System.out.println("Исходное число: " + N);
+        if (hasTwo) {
+            System.out.println("Число " + N + " содержит цифру '2': ");
+        }
+        System.out.println("Перевернутое число: " + reversed);
+        System.out.println("Количество цифр: " + count);
+        System.out.println("Сумма цифр: " + sumDigits);
 
         //Дополнительная задача 2.8
-    }
+        System.out.println("""
+                8.	Начальный вклад в банке равен 1000 руб. Через каждый месяц размер вклада увеличивается на P процентов от 
+                \tимеющейся суммы (P — вещественное число, 0<P< 25). По данному P определить, через сколько месяцев размер 
+                \tвклада превысит 1100 руб., и вывести найденное количество месяцев K (целое число) и итоговый размер вклада S 
+                \t(вещественное число).""");
+        double P = 3.0;
+        double initialDeposit = 1000.0;
+        double targetAmount = 1100.0;
 
+        int K = 0;
+        double S = initialDeposit;
+
+        while (S <= targetAmount) {
+            K++;
+            S = S + S * (P / 100);
+        }
+        System.out.println("Количество месяцев K: " + K);
+        System.out.println("Итоговый размер вклада S: " + S);
+    }
 }
