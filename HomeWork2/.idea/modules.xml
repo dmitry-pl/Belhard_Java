@@ -4,7 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HomeWork2.iml" filepath="$PROJECT_DIR$/HomeWork2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task1_Array/Task1_Array.iml" filepath="$PROJECT_DIR$/Task1_Array/Task1_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task1_String/Task1_String.iml" filepath="$PROJECT_DIR$/Task1_String/Task1_String.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2_Array/Task2_Array.iml" filepath="$PROJECT_DIR$/Task2_Array/Task2_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task2_String/Task2_String.iml" filepath="$PROJECT_DIR$/Task2_String/Task2_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task3_Array/Task3_Array.iml" filepath="$PROJECT_DIR$/Task3_Array/Task3_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task4_Array/Task4_Array.iml" filepath="$PROJECT_DIR$/Task4_Array/Task4_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task5_Additionally_Array/Task5_Additionally_Array.iml" filepath="$PROJECT_DIR$/Task5_Additionally_Array/Task5_Additionally_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task6_Additionally_Array/Task6_Additionally_Array.iml" filepath="$PROJECT_DIR$/Task6_Additionally_Array/Task6_Additionally_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task7_Additionally_Array/Task7_Additionally_Array.iml" filepath="$PROJECT_DIR$/Task7_Additionally_Array/Task7_Additionally_Array.iml" />
     </modules>
   </component>
 </project>
