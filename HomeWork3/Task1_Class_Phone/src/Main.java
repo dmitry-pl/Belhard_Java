@@ -28,6 +28,7 @@ public class Main {
         System.out.println(phone1.getNumber());
         System.out.println(phone2.getNumber());
         System.out.println(phone3.getNumber());
+
         //5.	Добавить конструктор в класс Phone, который принимает на вход три параметра для инициализации
         //      переменных класса - number, model и weight.
         //6.	Добавить конструктор, который принимает на вход два параметра для инициализации
@@ -36,5 +37,13 @@ public class Main {
         //8.	Вызвать из конструктора с тремя параметрами конструктор с двумя.
         Phone phone4 = new Phone("+375296903030", "Nokia 1100" , 350);
         System.out.println("Phone4 - model:" + phone4.model + " number:" + phone4.number + " weight:" + phone4.weight);
+
+        //9.	Добавьте перегруженный метод receiveCall, который принимает два параметра - имя звонящего и номер телефона звонящего. Вызвать этот метод.
+        phone4.receiveCall("Jon Yik");
+        phone4.receiveCall("Vasiliy", "+375291234565");
+
+        //10.	Создать метод sendMessage с аргументами переменной длины. Данный метод принимает на вход
+        //      номера телефонов, которым будет отправлено сообщение. Метод выводит на консоль номера этих телефонов
+        phone4.sendMessage("+375333140456", "+375296472456", "+375256789045");
     }
 }

@@ -17,8 +17,21 @@ public class Phone {
         System.out.println("Вызван конструктор с 2 параметрами.");
     }
 
-    public void receiveCall(String caller){
-        System.out.println("Звонит {" + caller + "}");
+    public void receiveCall(String callerName){
+        System.out.println("Звонит {" + callerName + "}");
+    }
+
+    //Перегруженный метод
+    public void receiveCall(String callerName, String callerNumber){
+        System.out.println("Звонит {" + callerName + "} номер {" + callerNumber + "}");
+    }
+
+    //Метод с переменным количеством параметров
+    public void sendMessage(String ... numbers) {
+        System.out.println("Сообщение будет отправлено на следующие номера:");
+        for (String num:numbers) {
+            System.out.println(" - " + num);
+        }
     }
 
     public String getNumber() {
