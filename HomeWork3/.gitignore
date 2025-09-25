@@ -28,3 +28,20 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Результаты компиляции
+target/
+build/
+
+# Файлы IDE IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Файлы логов и временные файлы
+*.log
+*.tmp
+
+# IDE IntelliJ IDEA .log
+idea.log
