@@ -1,5 +1,4 @@
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Reader {
     private String firstname;
@@ -58,5 +57,94 @@ public class Reader {
     //Перегруженный метод для получения книги
     public void takeBook(String name, String authorName) {
         takeBook(new Book(name, authorName));
+    }
+
+    //Основной метод returnBook
+    public void returnBook(String name) {
+        for(int i = 0; i < countBook; i++){
+            if(books[i].getName().equals(name)){
+                books[i] = null;
+                for(int j = i; j < countBook; j++){
+                    books[j] = books[j + 1];
+                }
+                System.out.println("Читатель " + getFIO() + " вернул книгу " + name);
+                countBook--;
+                return;
+            }
+        }
+        System.out.println("У читателя " + getFIO() + " нет книги " + name);
+    }
+
+    //Перегруженный метод returnBook
+    public void returnBook(Book book) {
+        returnBook(book.getName());
+    }
+
+    //Основной метод printStatus
+
+    //Перегруженный метод printStatus с детализацией информации
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public int getLibraryCardNumber() {
+        return libraryCardNumber;
+    }
+
+    public void setLibraryCardNumber(int libraryCardNumber) {
+        this.libraryCardNumber = libraryCardNumber;
+    }
+
+    public String getFaculty() {
+        return faculty;
+    }
+
+    public void setFaculty(String faculty) {
+        this.faculty = faculty;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public Book[] getBooks() {
+        return books;
+    }
+
+    public void setBooks(Book[] books) {
+        this.books = books;
     }
 }

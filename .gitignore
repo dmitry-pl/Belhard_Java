@@ -23,8 +23,20 @@ bin/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
+# Результаты компиляции
+target/
+build/
 
-### Mac OS ###
-.DS_Store
+# Файлы IDE IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.xml
+
+# Файлы логов и временные файлы
+*.log
+*.tmp
+
+# IDE IntelliJ IDEA .log
+idea.log
