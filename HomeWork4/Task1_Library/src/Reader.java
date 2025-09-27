@@ -44,13 +44,15 @@ public class Reader {
             System.out.println("Читатель " + getFIO() + " не может взять новую книгу, достигнут доступный лимит - " + MAX_BOOKS + " книг.");
             return;
         }
-        for(Book b:books){
-            if(b.equals(book)){
+        for(int i = 0; i < countBook; i++){
+            if(books[i].getName().equals(book.getName())){
                 System.out.println("У читателя " + getFIO() + " уже есть книга " + book.getName());
                 return;
             }
-        } //because "b" is null дописать
-        System.out.println(" jfkdjfkd");
+        }
+        books[countBook] = book;
+        countBook++;
+        System.out.println(getFIO() + " взял книгу " + book.getName());
     }
 
     //Перегруженный метод для получения книги

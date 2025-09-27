@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Practice_Work_4/Class_Person_1/Class_Person_1.iml" filepath="$PROJECT_DIR$/Practice_Work_4/Class_Person_1/Class_Person_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_Work_4/Class_Person_GetSet/Class_Person_GetSet.iml" filepath="$PROJECT_DIR$/Practice_Work_4/Class_Person_GetSet/Class_Person_GetSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_Work_4/DateTime/DateTime.iml" filepath="$PROJECT_DIR$/Practice_Work_4/DateTime/DateTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HomeWork.iml" filepath="$PROJECT_DIR$/.idea/HomeWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork1/HomeWork1.iml" filepath="$PROJECT_DIR$/HomeWork1/HomeWork1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/HomeWork2.iml" filepath="$PROJECT_DIR$/HomeWork2/HomeWork2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3/HomeWork3.iml" filepath="$PROJECT_DIR$/HomeWork3/HomeWork3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork4/HomeWork4.iml" filepath="$PROJECT_DIR$/HomeWork4/HomeWork4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_Work_1/Practice_Work_1.iml" filepath="$PROJECT_DIR$/Practice_Work_1/Practice_Work_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_Work_2/Practice_Work_2.iml" filepath="$PROJECT_DIR$/Practice_Work_2/Practice_Work_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_Work_3/Practice_Work_3.iml" filepath="$PROJECT_DIR$/Practice_Work_3/Practice_Work_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_Work_4/Practice_Work_4.iml" filepath="$PROJECT_DIR$/Practice_Work_4/Practice_Work_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task1_Array/Task1_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task1_Array/Task1_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3/Task1_Class_Phone/Task1_Class_Phone.iml" filepath="$PROJECT_DIR$/HomeWork3/Task1_Class_Phone/Task1_Class_Phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork4/Task1_Library/Task1_Library.iml" filepath="$PROJECT_DIR$/HomeWork4/Task1_Library/Task1_Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task1_String/Task1_String.iml" filepath="$PROJECT_DIR$/HomeWork2/Task1_String/Task1_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3/Task2_Additionally_IntArray/Task2_Additionally_IntArray.iml" filepath="$PROJECT_DIR$/HomeWork3/Task2_Additionally_IntArray/Task2_Additionally_IntArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task2_Array/Task2_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task2_Array/Task2_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task2_String/Task2_String.iml" filepath="$PROJECT_DIR$/HomeWork2/Task2_String/Task2_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task3_Array/Task3_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task3_Array/Task3_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task4_Array/Task4_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task4_Array/Task4_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task5_Additionally_Array/Task5_Additionally_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task5_Additionally_Array/Task5_Additionally_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task6_Additionally_Array/Task6_Additionally_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task6_Additionally_Array/Task6_Additionally_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task7_Additionally_Array/Task7_Additionally_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task7_Additionally_Array/Task7_Additionally_Array.iml" />
+    </modules>
+  </component>
+</project>
