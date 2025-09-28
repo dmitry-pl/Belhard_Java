@@ -85,5 +85,11 @@ ehthumbs.db
 # Резервные копии
 *.bak
 *.backup
-
-
+/HomeWork1/.idea/
+/HomeWork2/.idea/
+/HomeWork3/.idea/
+/HomeWork4/.idea/
+/Practice_Work_1/.idea/
+/Practice_Work_2/.idea/
+/Practice_Work_3/.idea/
+/Practice_Work_4/.idea/
