@@ -8,6 +8,11 @@
 # Папка конфигурации IDE
 .idea/
 **/.idea/
+/.idea/
+/**/.idea/
+
+# Вложенные gitignore
+**/.gitignore
 
 # Файлы модулей и настроек
 *.iml
@@ -79,3 +84,5 @@ ehthumbs.db
 # Резервные копии
 *.bak
 *.backup
+
+
