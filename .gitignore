@@ -1,10 +1,36 @@
-### IntelliJ IDEA ###
+############################################
+# ФАЙЛ .gitignore ДЛЯ JAVA ПРОЕКТОВ       #
+# Автоматически сгенерированные файлы IDE #
+# и результаты сборки                     #
+############################################
+
+### JetBrains IntelliJ IDEA ###
+# Папка конфигурации IDE
+.idea/
+**/.idea/
+
+# Файлы модулей и настроек
+*.iml
+**/*.iml
+
+# Файлы рабочих пространств и проектов
+*.iws
+*.ipr
+
+# Кэш и временные файлы Kotlin
+.kotlin/
+
+# Логи IDE
+idea.log
+
+# Папка выходных файлов компиляции (но исключаем исходные коды)
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.kotlin
+
 
 ### Eclipse ###
+# Сгенерированные файлы
 .apt_generated
 .classpath
 .factorypath
@@ -12,9 +38,12 @@ out/
 .settings
 .springBeans
 .sts4-cache
+
+# Папка скомпилированных классов
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -23,20 +52,30 @@ bin/
 /nbdist/
 /.nb-gradle/
 
-# Результаты компиляции
+
+### РЕЗУЛЬТАТЫ СБОРКИ ###
+# Maven
 target/
+
+# Gradle
 build/
 
-# Файлы IDE IntelliJ
-.idea/
-*.iml
-*.iws
-*.ipr
-*.xml
 
-# Файлы логов и временные файлы
+### СЛУЖЕБНЫЕ ФАЙЛЫ ###
+# Логи приложений
 *.log
-*.tmp
 
-# IDE IntelliJ IDEA .log
-idea.log
+# Временные файлы
+*.tmp
+*.temp
+
+# Системные файлы macOS
+.DS_Store
+
+# Системные файлы Windows
+Thumbs.db
+ehthumbs.db
+
+# Резервные копии
+*.bak
+*.backup
