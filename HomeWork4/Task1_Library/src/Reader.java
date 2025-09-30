@@ -32,9 +32,14 @@ public class Reader {
                 + " факультет: " + faculty + " дата рождения: " + birthDate + " телефон: " + phoneNumber;
     }
 
-    //Получение ФИО
-    public String getFIO() {
+    //Получение краткого ФИО
+    private String getFIO() {
         return lastname + " " + firstname.charAt(0) + "." + surname.charAt(0) + ".";
+    }
+
+    //Получение полнорого ФИО
+    private String getFullFIO() {
+        return lastname + " " + firstname + " " + surname;
     }
 
     //Основной метод для получения книги
@@ -81,8 +86,61 @@ public class Reader {
     }
 
     //Основной метод printStatus
+    public void printStatus() {
+        if (countBook == 0) {
+            System.out.println("У читателя " + getFIO() + " нет ни одной книги.");
+            return;
+        }
+        String status = getFIO() + " взял " + countBook + getDeclension();
+        for (int i = 0; i < countBook; i++) {
+            status = status + ": " + books[i].getName() + ((i < countBook - 1)? ", ": "");
+        }
 
-    //Перегруженный метод printStatus с детализацией информации
+        System.out.println(status);
+    }
+
+    //Перегруженный метод printStatus с детализацией информации - вывод в разных форматах
+    public void printStatus(String format) {
+        System.out.println("\nПерегруженный метод printStatus\n");
+        switch (format.toLowerCase()) {
+            case "short":
+                System.out.println(getFIO() + "взял " + countBook + getDeclension());
+                break;
+
+            case "full":
+                System.out.println("=== ЧИТАТЕЛЬ: " + getFullFIO() + " ===");
+                System.out.println("Билет: " + libraryCardNumber);
+                System.out.println("Факультет: " + faculty);
+                System.out.println("Книг на руках: " + countBook);
+                if (countBook > 0) {
+                    System.out.println("Список книг:");
+                    for (int i = 0; i < countBook; i++) {
+                        System.out.println("  - " + books[i].getName());
+                    }
+                }
+                System.out.println("========================================");
+                break;
+
+            case "list":
+                if (countBook == 0) {
+                    System.out.println(getFIO() + " - нет книг");
+                } else {
+                    System.out.println(getFIO() + " - книги:");
+                    for (int i = 0; i < countBook; i++) {
+                        System.out.println("  • " + books[i].getName());
+                    }
+                }
+                break;
+
+            default:
+                printStatus();
+                break;
+        }
+    }
+
+    private String getDeclension() {
+        return ((countBook ==1)? " книгу ":(countBook >=2 && countBook <= 4)? " книги ":" книг ");
+    }
 
     public String getFirstname() {
         return firstname;
