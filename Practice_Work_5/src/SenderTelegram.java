@@ -1,14 +1,14 @@
 public class SenderTelegram extends Sender{
-    SenderTelegram(String to, String msg) {
-        super(to, msg);
-    }
 
     @Override
     public boolean send(String to, String msg) {
         boolean isTrue = false;
-        if(to.charAt(0) == '@'){
-            System.out.println(toString() + " по телеграмму");
+        if(!to.isEmpty() && to.startsWith("@")){
+            System.out.println(toString(to, msg) + " по телеграмму");
             isTrue = true;
+        }
+        if(!isTrue) {
+            System.out.println("Указан некорректный адрес отправления - " + to);
         }
         return isTrue;
     }
