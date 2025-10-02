@@ -4,7 +4,7 @@ public class Reader {
     private String firstname;
     private String surname;
     private  String lastname;
-    private int libraryCardNumber;
+    private String libraryCardNumber;
     private String faculty;
     private LocalDate birthDate;
     private String phoneNumber;
@@ -14,7 +14,7 @@ public class Reader {
     // Константа для максимального количества книг
     private static final int MAX_BOOKS = 10;
 
-    public Reader(String firstname, String surname, String lastname, int libraryCardNumber, String faculty
+    public Reader(String firstname, String surname, String lastname, String libraryCardNumber, String faculty
             , LocalDate birthDate, String phoneNumber) {
         this.firstname = firstname;
         this.surname = surname;
@@ -38,7 +38,7 @@ public class Reader {
     }
 
     //Получение полнорого ФИО
-    private String getFullFIO() {
+    public String getFullFIO() {
         return lastname + " " + firstname + " " + surname;
     }
 
@@ -166,11 +166,11 @@ public class Reader {
         this.lastname = lastname;
     }
 
-    public int getLibraryCardNumber() {
+    public String getLibraryCardNumber() {
         return libraryCardNumber;
     }
 
-    public void setLibraryCardNumber(int libraryCardNumber) {
+    public void setLibraryCardNumber(String libraryCardNumber) {
         this.libraryCardNumber = libraryCardNumber;
     }
 
