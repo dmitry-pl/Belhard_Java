@@ -8,7 +8,8 @@
  */
 public class Main {
     public static void main(String[] args) {
-        Instrument [] instruments = {new Guiter(7), new Drum(10), new Tuba(2)};
+        Instrument [] instruments = {new Guiter(7)
+                , new Drum(10), new Tuba(2)};
 
         for (Instrument instrument:instruments) {
             instrument.play();
