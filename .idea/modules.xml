@@ -11,11 +11,13 @@
       <module fileurl="file://$PROJECT_DIR$/HomeWork3/HomeWork3.iml" filepath="$PROJECT_DIR$/HomeWork3/HomeWork3.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork4/HomeWork4.iml" filepath="$PROJECT_DIR$/HomeWork4/HomeWork4.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork6/HomeWork6.iml" filepath="$PROJECT_DIR$/HomeWork6/HomeWork6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork7/HomeWork7.iml" filepath="$PROJECT_DIR$/HomeWork7/HomeWork7.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task1_Array/Task1_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task1_Array/Task1_Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork3/Task1_Class_Phone/Task1_Class_Phone.iml" filepath="$PROJECT_DIR$/HomeWork3/Task1_Class_Phone/Task1_Class_Phone.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork6/Task1_Hospital/Task1_Hospital.iml" filepath="$PROJECT_DIR$/HomeWork6/Task1_Hospital/Task1_Hospital.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork4/Task1_Library/Task1_Library.iml" filepath="$PROJECT_DIR$/HomeWork4/Task1_Library/Task1_Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task1_String/Task1_String.iml" filepath="$PROJECT_DIR$/HomeWork2/Task1_String/Task1_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork7/Task1_StringBuilder/Task1_StringBuilder.iml" filepath="$PROJECT_DIR$/HomeWork7/Task1_StringBuilder/Task1_StringBuilder.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork4/Task2_Additionally/Task2_Additionally.iml" filepath="$PROJECT_DIR$/HomeWork4/Task2_Additionally/Task2_Additionally.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork3/Task2_Additionally_IntArray/Task2_Additionally_IntArray.iml" filepath="$PROJECT_DIR$/HomeWork3/Task2_Additionally_IntArray/Task2_Additionally_IntArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWork2/Task2_Array/Task2_Array.iml" filepath="$PROJECT_DIR$/HomeWork2/Task2_Array/Task2_Array.iml" />
@@ -31,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/PW3/class.iml" filepath="$PROJECT_DIR$/PW3/class.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW4/class_get_set.iml" filepath="$PROJECT_DIR$/PW4/class_get_set.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW5/extend_abstract.iml" filepath="$PROJECT_DIR$/PW5/extend_abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW8/generics_collections.iml" filepath="$PROJECT_DIR$/PW8/generics_collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW7/regex.iml" filepath="$PROJECT_DIR$/PW7/regex.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW6/string.iml" filepath="$PROJECT_DIR$/PW6/string.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW1/while_for.iml" filepath="$PROJECT_DIR$/PW1/while_for.iml" />
