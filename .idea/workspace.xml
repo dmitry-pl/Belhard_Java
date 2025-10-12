@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="PW7_start">
+    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="HW6_start">
+      <change beforePath="$PROJECT_DIR$/.idea/HomeWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HomeWork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork7/HomeWork7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork7/HomeWork7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork7/Task1_StringBuilder/Task1_StringBuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork7/Task1_StringBuilder/Task1_StringBuilder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork7/Task1_StringBuilder/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork7/Task1_StringBuilder/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +36,13 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dmitry-pl/Belhard_Java.git&quot;,
-    &quot;accountId&quot;: &quot;424e5f78-6092-4841-8ce3-3cb2f6ab88f3&quot;
+    &quot;url&quot;: &quot;https://github.com/dmitry-pl/Belhard_Java&quot;,
+    &quot;accountId&quot;: &quot;b17932c0-c8a6-41be-89dd-5440040f2f2a&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -47,19 +55,20 @@
   "keyToString": {
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
+    "Application.Main (4).executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master(local)",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last.edited.regexp": "",
-    "onboarding.tips.debug.path": "C:/Java/Belhard_Java_Lessons/HomeWork/HomeWork7/Task1_StringBuilder/src/Main.java",
+    "last.edited.regexp": "_f.f_g-g_f.com",
+    "onboarding.tips.debug.path": "D:/2.ПРОЕКТЫ/JAVA/Belhard_Java/HomeWork7/Task3_Regex/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "settings.qodana"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,25 +76,33 @@
       <recent name="C:\Java\Belhard_Java_Lessons\HomeWork\Practice_Work_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Task2_Regex" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="regex" />
+      <module name="Task3_Regex" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="generics_collections" />
+      <module name="Task1_StringBuilder" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -105,15 +122,7 @@
       <option name="project" value="LOCAL" />
       <updated>1759606018319</updated>
     </task>
-    <task id="LOCAL-00002" summary="PW7_start">
-      <option name="closed" value="true" />
-      <created>1759854521341</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1759854521341</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +136,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -141,7 +150,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW6_start" />
-    <MESSAGE value="PW7_start" />
-    <option name="LAST_COMMIT_MESSAGE" value="PW7_start" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6_start" />
   </component>
 </project>
