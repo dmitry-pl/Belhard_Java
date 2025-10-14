@@ -16,6 +16,7 @@ public class Main {
         people.add("Vaskin");
         System.out.println(people);
         System.out.println(people.indexOf("Vaskin"));
+        //Object [] arr = new Object[3];
 
     }
 }

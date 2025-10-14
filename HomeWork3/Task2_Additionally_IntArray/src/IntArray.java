@@ -21,25 +21,25 @@ public class IntArray {
         System.out.println("Вызван конструктор, принимающий массив. Массив инициализирован.");
     }
 
-    public void PrintArray() {
+    public void printArray() {
         for (int number : numArray) {
             System.out.print(number + " ");
         }
     }
 
-    static void PrintArray(int[] printArray) {
+    static void printArray(int[] printArray) {
         for (int number : printArray) {
             System.out.print(number + " ");
         }
     }
 
-    public void Sort(boolean isSortUp) {
+    public void sort(boolean isSortUp) {
         if(isSortUp) {
-            SortArrayUp();
-        } else SortArrayDown();
+            sortArrayUp();
+        } else sortArrayDown();
     }
     //Sort up
-    private void SortArrayUp() {
+    private void sortArrayUp() {
         for (int i = 0; i < numArray.length - 1; i++) {
             for(int j = 0; j < numArray.length - i - 1; j++) {
                 if(numArray[j + 1] < numArray[j]) {
@@ -51,7 +51,7 @@ public class IntArray {
         }
     }
     //Sort down
-    private void SortArrayDown() {
+    private void sortArrayDown() {
         for (int i = 0; i < numArray.length - 1; i++) {
             for(int j = 0; j < numArray.length - i - 1; j++) {
                 if(numArray[j + 1] > numArray[j]) {

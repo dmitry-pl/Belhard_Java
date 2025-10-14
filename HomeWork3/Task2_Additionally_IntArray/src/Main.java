@@ -8,28 +8,28 @@ public class Main {
         // по возрастанию, если отрицательное (false), то по убыванию. Добавить методы, с помощью которых
         // можно будет работать с внутренним массивом без прямого обращения к нему (геттеры, сеттеры и тд)
         IntArray intArray1 = new IntArray();
-        intArray1.PrintArray();
+        intArray1.printArray();
         IntArray intArray2 = new IntArray(20);
-        intArray2.PrintArray();
+        intArray2.printArray();
         int[] intArray = {1, 2, 3, 4, 5, 6, 999};
         IntArray intArray3 = new IntArray(intArray);
-        intArray3.PrintArray();
+        intArray3.printArray();
 
         IntArray intArray5 = new IntArray();
         System.out.println("Массив до сортировки:");
-        intArray5.PrintArray();
-        intArray5.Sort(true);
+        intArray5.printArray();
+        intArray5.sort(true);
         System.out.println("\nМассив после сортировки по возрастанию:");
-        intArray5.PrintArray();
-        intArray5.Sort(false);
+        intArray5.printArray();
+        intArray5.sort(false);
         System.out.println("\nМассив после сортировки по убыванию:");
-        intArray5.PrintArray();
+        intArray5.printArray();
 
         //Геттер и сеттер
         System.out.println("\nПроверяем работу set/get и static метода:");
         IntArray intArray6 = new IntArray(7);
         int[] setArray = {2, 1, 4, 2, 5, 2, 7};
         intArray6.setNumArray(setArray);
-        IntArray.PrintArray(intArray6.getNumArray());
+        IntArray.printArray(intArray6.getNumArray());
     }
 }
