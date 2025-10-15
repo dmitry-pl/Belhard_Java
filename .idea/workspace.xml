@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="HW7_in_proccess">
+    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="HW7_PW10_in_proccess">
+      <change afterPath="$PROJECT_DIR$/HomeWork7/Task6_exception/Task6_exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork7/Task6_exception/src/IncorrectInfoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_10_2025_22_47_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_10_2025_22_47__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork3/Task2_Additionally_IntArray/src/IntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork3/Task2_Additionally_IntArray/src/IntArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork3/Task2_Additionally_IntArray/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork3/Task2_Additionally_IntArray/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork7/Task5_regex_date/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork7/Task5_regex_date/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PW8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PW8/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     "git-widget-placeholder": "master(local)",
     "kotlin-language-version-configured": "true",
     "last.edited.regexp": "",
-    "onboarding.tips.debug.path": "C:/Java/Belhard_Java_Lessons/HomeWork/PW10/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Java/Belhard_Java_Lessons/HomeWork/HomeWork7/Task6_exception/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -152,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760456391089</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW7_PW10_in_proccess">
+      <option name="closed" value="true" />
+      <created>1760465115641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760465115641</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +191,7 @@
     <MESSAGE value="HW6_start" />
     <MESSAGE value="PW7_start" />
     <MESSAGE value="HW7_in_proccess" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW7_in_proccess" />
+    <MESSAGE value="HW7_PW10_in_proccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW7_PW10_in_proccess" />
   </component>
 </project>
