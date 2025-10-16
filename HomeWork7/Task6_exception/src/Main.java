@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Main {
-    private static final Pattern FIO_PATTERN = Pattern.compile("^[а-яА-Я]");
+    private static final Pattern FIO_PATTERN = Pattern.compile("^[a-zA-Zа-яА-ЯёЁ\\s]+\\d+$");
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,5 +20,7 @@ public class Main {
         }
     }
 
-    //public static
+    public static void checkInput(String input) throws IncorrectInfoException {
+        System.out.println("good");
+    }
 }

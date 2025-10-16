@@ -41,6 +41,7 @@
       <module fileurl="file://$PROJECT_DIR$/PW10/files.iml" filepath="$PROJECT_DIR$/PW10/files.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW8/generics_collections.iml" filepath="$PROJECT_DIR$/PW8/generics_collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW7/regex.iml" filepath="$PROJECT_DIR$/PW7/regex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW11/serialization.iml" filepath="$PROJECT_DIR$/PW11/serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW6/string.iml" filepath="$PROJECT_DIR$/PW6/string.iml" />
       <module fileurl="file://$PROJECT_DIR$/PW1/while_for.iml" filepath="$PROJECT_DIR$/PW1/while_for.iml" />
     </modules>

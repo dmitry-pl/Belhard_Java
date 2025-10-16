@@ -1,27 +1,15 @@
 public class IncorrectInfoException extends Exception{
-    private String firstName;
-    private String surName;
-    private String lastName;
+    private String fio;
     private int age;
 
-    public IncorrectInfoException(String message, String firstName, String surName, String lastName, int age) {
+    public IncorrectInfoException(String message, String fio, int age) {
         super(message);
-        this.firstName = firstName;
-        this.surName = surName;
-        this.lastName = lastName;
+        this.fio = fio;
         this.age = age;
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getSurName() {
-        return surName;
-    }
-
-    public String getLastName() {
-        return lastName;
+    public String getFio() {
+        return fio;
     }
 
     public int getAge() {
