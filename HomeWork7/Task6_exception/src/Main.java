@@ -4,7 +4,10 @@ import java.util.regex.Pattern;
 public class Main {
     private static final Pattern FIO_PATTERN = Pattern.compile("^[a-zA-Zа-яА-ЯёЁ\\s]+$");
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        // Для теста
+        testFio();
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("==== Проверка ФИО и возраста ====");
@@ -69,29 +72,33 @@ public class Main {
         if (age < 0 || age > 100) {
             throw new IncorrectInfoException("Возраст должен быть в диапазоне от 0 до 100 лет", fio, age);
         }
+    }
 
-        public static void testFio () {
-            String[] testCases = {
-                    "Иванов Иван Иванович 25",
-                    "Петров Петр Петрович 150",
-                    "Сидоров Сидор Сидорович -5",
-                    "А".repeat(201) + " 30",
-                    "Иванов, Иван! Иванович? 25",
-                    "John Doe Smith 80",
-                    "Иванов Иван 25",
-                    "Иванов Иван Иванович abc"
-            };
+    public static void testFio() throws IncorrectInfoException {
+        String[] testCases = {
+                "Иванов Иван Иванович 25",
+                "Петров Петр Петрович 150",
+                "Сидоров Сидор Сидорович -5",
+                "А".repeat(201) + " 30",
+                "Иванов, Иван! Иванович? 25",
+                "John Doe Smith 80",
+                "Иванов Иван 25",
+                "Иванов Иван Иванович abc"
+        };
 
-            for (String testCase : testCases) {
-                System.out.println("\n--- Тест: " + testCase + " ---");
-                try {
-                    checkInput(testCase);
-                } catch (IncorrectInfoException e) {
-                    System.err.println("Ошибка: " + e.getMessage());
-                    e.printStackTrace();
-                } catch (Exception e) {
-                    System.err.println("Неожиданная ошибка: " + e.getMessage());
-                }
+        for (String testCase : testCases) {
+            /* Вот здесь у меня какая-то магия получилась. Я ожидал, что программа выведет ФИО по одному и ошибку.
+            А происходит сразу вывод всего массива, а потом отдельно стэки ошибок в одну кучу.
+            Где-то намудрил видимо.
+            */
+            System.out.println("\n--- Тест: " + testCase + " ---");
+            try {
+                checkInput(testCase);
+            } catch (IncorrectInfoException e) {
+                System.err.println("Ошибка: " + e.getMessage());
+                e.printStackTrace();
+            } catch (Exception e) {
+                System.err.println("Неожиданная ошибка: " + e.getMessage());
             }
         }
     }
