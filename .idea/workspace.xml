@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="PW11">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2025_19_20_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2025_19_20__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork7/Task6_exception/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork7/Task6_exception/src/Main.java" afterDir="false" />
     </list>
@@ -54,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master(local)",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last.edited.regexp": "",
     "onboarding.tips.debug.path": "C:/Java/Belhard_Java_Lessons/HomeWork/PW11/src/Main.java",
