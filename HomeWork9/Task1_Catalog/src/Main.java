@@ -72,8 +72,7 @@ public class Main {
     }
 
     public static void printFileContents(String filename) {
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader(filename));
+        try (BufferedReader reader = new BufferedReader(new FileReader(filename))){
             String line;
             int counter = 1;
 
@@ -81,9 +80,6 @@ public class Main {
                 System.out.println(counter + ". " + line);
                 counter++;
             }
-
-            reader.close();
-
         } catch (FileNotFoundException e) {
             System.out.println("Файл " + filename + " не найден!");
         } catch (IOException e) {

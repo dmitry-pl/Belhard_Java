@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="HW8_Task1_Catalog">
+    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="HW8_Task1_Catalog_v2">
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task2_LibraryWithFiles/Task2_LibraryWithFiles.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task2_LibraryWithFiles/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task2_LibraryWithFiles/src/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task2_LibraryWithFiles/src/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task2_LibraryWithFiles/src/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +45,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="33QtdjMar5ShcYd7Nuy1b4l8oxZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +68,7 @@
     "git-widget-placeholder": "master(local)",
     "kotlin-language-version-configured": "true",
     "last.edited.regexp": "",
-    "onboarding.tips.debug.path": "C:/Java/Belhard_Java_Lessons/HomeWork/HomeWork9/Task1_Catalog/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Java/Belhard_Java_Lessons/HomeWork/HomeWork9/Task2_LibraryWithFiles/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -72,7 +82,7 @@
       <recent name="C:\Java\Belhard_Java_Lessons\HomeWork\Practice_Work_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PW13" />
@@ -94,6 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Task2_LibraryWithFiles" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Task1_Catalog" />
@@ -101,20 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main_serialization" />
-      <module name="serialization" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main_serialization" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761571937075</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HW8_Task1_Catalog_v2">
+      <option name="closed" value="true" />
+      <created>1761572020096</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761572020096</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +243,8 @@
     <MESSAGE value="PW11" />
     <MESSAGE value="HW7_done" />
     <MESSAGE value="HW8_Task1_Catalog" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW8_Task1_Catalog" />
+    <MESSAGE value="HW8_Task1_Catalog_v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW8_Task1_Catalog_v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
