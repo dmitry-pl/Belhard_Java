@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="PW11">
-      <change afterPath="$PROJECT_DIR$/HomeWork8/HomeWork8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork8/Task1_Library_List/Task1_Library_List.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork8/Task1_Library_List/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork8/Task1_Library_List/src/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork8/Task1_Library_List/src/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork8/Task2_product_hashmap/Task2_product_hashmap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork8/Task2_product_hashmap/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork8/Task3_ArrayToMapConverter/Task3_ArrayToMapConverter.iml" afterDir="false" />
+    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="HW7_done">
+      <change afterPath="$PROJECT_DIR$/HomeWork9/HomeWork9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/Task1_Catalog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/files/File_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/files/File_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/files/File_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/files/mistake_file.rtf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork8/Task3_ArrayToMapConverter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork8/Task3_ArrayToMapConverter/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +36,12 @@
     &quot;assignee&quot;: &quot;dmitry-pl&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dmitry-pl/Belhard_Java",
-    "accountId": "b17932c0-c8a6-41be-89dd-5440040f2f2a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dmitry-pl/Belhard_Java.git&quot;,
+    &quot;accountId&quot;: &quot;424e5f78-6092-4841-8ce3-3cb2f6ab88f3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -59,13 +58,15 @@
     "Application.Main (4).executor": "Run",
     "Application.Main (5).executor": "Run",
     "Application.Main.executor": "Run",
+    "Notification.DisplayName-DoNotAsk-git.project.updated": "4 files updated in 1 commit",
+    "Notification.DoNotAsk-git.project.updated": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "master(local)",
     "kotlin-language-version-configured": "true",
     "last.edited.regexp": "",
-    "onboarding.tips.debug.path": "D:/2.ПРОЕКТЫ/JAVA/Belhard_Java/HomeWork8/Task3_ArrayToMapConverter/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Java/Belhard_Java_Lessons/HomeWork/HomeWork9/Task1_Catalog/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -79,7 +80,7 @@
       <recent name="C:\Java\Belhard_Java_Lessons\HomeWork\Practice_Work_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PW13" />
@@ -96,13 +97,6 @@
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Task2_product_hashmap" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Task3_ArrayToMapConverter" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,18 +104,25 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Task1_Library_List" />
+      <module name="Task1_Catalog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main_serialization" />
+      <module name="serialization" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main_serialization" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760637165813</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW7_done">
+      <option name="closed" value="true" />
+      <created>1760970773156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760970773156</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +223,18 @@
     <MESSAGE value="HW7_PW10_in_proccess" />
     <MESSAGE value="HW7_t6_in_process" />
     <MESSAGE value="PW11" />
-    <option name="LAST_COMMIT_MESSAGE" value="PW11" />
+    <MESSAGE value="HW7_done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW7_done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OOP_Practice/Part_1/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,12 @@
 import java.util.HashMap;
 import java.util.Map;
-
+/*
+Напишите метод, который получает на вход массив элементов типа К (Generic) и возвращает Map<K, Integer>,
+где K — значение из массива, а Integer — количество вхождений в массив.
+То есть сигнатура метода выглядит так:
+<K> Map<K, Integer> arrayToMap(K[] ks);
+То есть, если массив похож на {1,2,4,4}, то map будет выглядеть как {1:1, 2:1, 4:2}
+ */
 public class Main {
     public static <K> Map<K, Integer> arrayToMap(K[] ks) {
         Map<K, Integer> frequencyMap = new HashMap<>();
