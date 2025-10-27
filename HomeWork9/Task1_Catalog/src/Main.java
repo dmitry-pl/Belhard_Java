@@ -36,14 +36,10 @@ public class Main {
             return;
         }
 
-        BufferedWriter outputWriter = new BufferedWriter(new FileWriter(outputFile));
-
-        try {
+        try (BufferedWriter outputWriter = new BufferedWriter(new FileWriter(outputFile))) {
             int textFileCount = 0;
 
-            for (int i = 0; i < allFiles.length; i++) {
-                File currentFile = allFiles[i];
-
+            for (File currentFile : allFiles) {
                 if (currentFile.isDirectory()) {
                     continue; // это папка, пропускаем
                 }
@@ -56,17 +52,13 @@ public class Main {
                 textFileCount++;
                 System.out.println("Читаем файл " + textFileCount + ": " + fileName);
 
-                BufferedReader fileReader = new BufferedReader(new FileReader(currentFile));
-
-                try {
+                try (BufferedReader fileReader = new BufferedReader(new FileReader(currentFile))) {
                     String currentLine;
                     while ((currentLine = fileReader.readLine()) != null) {
                         outputWriter.write(currentLine);
                         outputWriter.newLine();
                     }
                     //outputWriter.newLine();
-                } finally {
-                    fileReader.close();
                 }
             }
 
@@ -76,8 +68,6 @@ public class Main {
                 System.out.println("Успешно объединено " + textFileCount + " файлов в " + outputFile);
             }
 
-        } finally {
-            outputWriter.close();
         }
     }
 

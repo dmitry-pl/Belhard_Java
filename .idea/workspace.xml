@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="HW7_done">
-      <change afterPath="$PROJECT_DIR$/HomeWork9/HomeWork9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/Task1_Catalog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/files/File_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/files/File_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/files/File_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/files/mistake_file.rtf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork8/Task3_ArrayToMapConverter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork8/Task3_ArrayToMapConverter/src/Main.java" afterDir="false" />
+    <list default="true" id="1574bed6-b621-43ff-a2c9-348b3bee355a" name="Changes" comment="HW8_Task1_Catalog">
+      <change beforePath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork9/Task1_Catalog/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760970773156</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW8_Task1_Catalog">
+      <option name="closed" value="true" />
+      <created>1761571937074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761571937075</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +224,8 @@
     <MESSAGE value="HW7_t6_in_process" />
     <MESSAGE value="PW11" />
     <MESSAGE value="HW7_done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW7_done" />
+    <MESSAGE value="HW8_Task1_Catalog" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW8_Task1_Catalog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
