@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
-    private List<Reader> readers; // Список читателей вместо массива
+    private final List<Reader> readers; // Список читателей вместо массива
 
     public Library() {
         this.readers = FileUtil.restoreReadersList();

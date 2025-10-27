@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Reader implements Serializable {
-    // Добавляем serialVersionUID для контроля версий
-    private static final long serialVersionUID = 1L;
 
     private String firstname;
     private String surname;

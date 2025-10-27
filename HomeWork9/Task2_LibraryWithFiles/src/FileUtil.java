@@ -32,18 +32,15 @@ public class FileUtil {
         // Проверяем, существует ли файл
         if (!file.exists()) {
             System.out.println("Файл с данными читателей не найден. Будет создан новый список.");
-            return new ArrayList<Reader>();
+            return new ArrayList<>();
         }
 
         try {
-            // Создаем потоки для чтения объектов
             FileInputStream fileInputStream = new FileInputStream(FILE_NAME);
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
-            // Читаем список читателей из файла
             List<Reader> readers = (List<Reader>) objectInputStream.readObject();
 
-            // Закрываем потоки
             objectInputStream.close();
             fileInputStream.close();
 
@@ -53,10 +50,10 @@ public class FileUtil {
 
         } catch (IOException e) {
             System.err.println("Ошибка при чтении списка читателей: " + e.getMessage());
-            return new ArrayList<Reader>();
+            return new ArrayList<>();
         } catch (ClassNotFoundException e) {
             System.err.println("Ошибка: класс не найден при чтении файла: " + e.getMessage());
-            return new ArrayList<Reader>();
+            return new ArrayList<>();
         }
     }
 }
